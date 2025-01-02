@@ -159,6 +159,7 @@ void main() {
 
         while (1) {
                 if (QS) { //New Pulse detected
+                        // WE SHOULD CLEAR THE QS FLAG HERE : QS = FALSE;
                         Lcd_Out(1, 1, "HEART RATE (BPM)");
                         Lcd_Out(2, 1, " ");
                         IntToStr(BPM, temp_str);
