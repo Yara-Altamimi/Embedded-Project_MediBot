@@ -1,2 +1,30 @@
 main
+	__CC2DW
+		____DoICP
+	Lcd_Init
+		Delay_5500us
+		Delay_1us
+	Lcd_Cmd
+		Delay_1us
+		Delay_5500us
+		Delay_50us
+	Lcd_Out
+		Lcd_Cmd
+			Delay_1us
+			Delay_5500us
+			Delay_50us
+		Lcd_Chr_CP
+			Lcd_Cmd
+				Delay_1us
+				Delay_5500us
+				Delay_50us
+	ADC_init
+	IntToStr
+		WordToStr
+			Div_16X16_U
 interrupt
+	ADC_read
+	Div_16X16_U
+	Mul_16X16_U
+	Div_16x16_S
+		Div_16x16_S_L

@@ -1,2 +1,4 @@
 ﻿  main.c
-  main.vcxproj -> C:\Users\Lenovo\Desktop\4thyear_sim1\EmbeddedSW\VSproj\main\x64\Debug\main.exe
+D:\GitHub Repos\Embedded-Project_MediBot\Temp_Nedal\EmbeddedSW\VSproj\main\main.c(206,2): warning C4013: 'Delay' undefined; assuming extern returning int
+main.obj : error LNK2019: unresolved external symbol Delay referenced in function DHT11_Start
+D:\GitHub Repos\Embedded-Project_MediBot\Temp_Nedal\EmbeddedSW\VSproj\main\x64\Debug\main.exe : fatal error LNK1120: 1 unresolved externals
