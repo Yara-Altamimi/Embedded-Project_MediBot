@@ -2,6 +2,8 @@
 // motor right and left , RD0 (IN3) ,RD1 (IN4) ,RD2 (IN2) ,RD3 (IN1) FOR Direction , and pwm in RC2 (EN1&EN2)
 // Fan enable pin at RC1 (WE DON'T NEED THIS)
 
+//Note: in the schematic of this project the PWM controls the fan speed using potentiometer, we should look for this
+
 
 
 
