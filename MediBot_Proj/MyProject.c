@@ -111,7 +111,7 @@ unsigned int analog_read;
 unsigned int count;
 void mydelayms(unsigned int count)
 {
-    count *= 2;
+    count /= 2;
     tick = 0;
     while (tick < count);
 }
