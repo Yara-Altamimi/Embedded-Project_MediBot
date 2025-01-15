@@ -130,10 +130,11 @@ void main() {
         Delay_ms(100); // Small delay
         if (PORTD & 0xFE)
 {
-PORTD &=0xFE;
-    }
-else{
-PORTD |=0x01;
+if (PORTD & 0x01)
+{
+PORTD &= 0xFE;
 }
-}
+else
+{
+PORTD |= 0x01;
 }
